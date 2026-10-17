@@ -1,0 +1,6 @@
+{
+  "name": "Heritage Hub of India",
+  "description": "An all-in-one interactive digital encyclopedia and tourism platform celebrating India's 28 states, 8 Union Territories, cultural traditions, monuments, arts, cuisine, and living diversity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

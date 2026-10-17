@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-sand-50: #FAF8F5;
+  --color-sand-100: #F4EFE6;
+  --color-sand-200: #E7DDD0;
+  --color-sand-300: #D4C3AE;
+  --color-sand-700: #4A3E31;
+  --color-sand-800: #2C241C;
+  --color-sand-900: #1B1611;
+  --color-terracotta: #C85A32;
+  --color-terracotta-dark: #A5431E;
+  --color-indigo-hub: #1E3A5F;
+  --color-peacock: #0D5C63;
+  --color-saffron: #D97706;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF7F2;
+  color: #1B1611;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-heritage-serif {
+  font-family: var(--font-serif);
+}
+
+.font-hindi, .font-indic {
+  font-family: "Noto Sans Devanagari", "Noto Sans Gurmukhi", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Kannada", "Noto Sans Bengali", "Noto Sans Malayalam", "Noto Sans Gujarati", "Noto Sans Oriya", var(--font-sans);
+}
+
+/* Custom scrollbar for museum archive feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4EFE6;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4C3AE;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A5431E;
+}
+
